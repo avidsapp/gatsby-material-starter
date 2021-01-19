@@ -1,45 +1,45 @@
 const config = {
-  siteTitle: "Gatsby Material Starter", // Site title.
-  siteTitleShort: "GM Starter", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
-  siteTitleAlt: "GatsbyJS Material Starter", // Alternative site title for SEO.
-  siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
-  siteUrl: "https://vagr9k.github.io", // Domain of your website without pathPrefix.
-  pathPrefix: "/gatsby-material-starter", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
+  siteTitle: "Example Company", // Site title.
+  siteTitleShort: "x200", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitleAlt: "Example Company", // Alternative site title for SEO.
+  siteLogo: "/logos/logo-192.png", // Logo used for SEO and manifest.
+  siteUrl: "https://x200labs.com", // Domain of your website without pathPrefix.
+  pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   fixedFooter: false, // Whether the footer component is fixed, i.e. always visible
-  siteDescription: "A GatsbyJS stater with Material design in mind.", // Website description used for RSS feeds/meta description tag.
+  siteDescription: "Example Company", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
-  siteRssTitle: "Gatsby Material Starter RSS feed", // Title of the RSS feed
-  siteFBAppID: "1825356251115265", // FB Application ID for using app insights
+  siteRssTitle: "Example Company", // Title of the RSS feed
+  siteFBAppID: "", // FB Application ID for using app insights
   siteGATrackingID: "UA-47311644-4", // Tracking code ID for google analytics.
-  disqusShortname: "https-vagr9k-github-io-gatsby-material-starter", // Disqus shortname.
+  disqusShortname: "", // Disqus shortname.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
-  userName: "Material User", // Username to display in the author segment.
-  userEmail: "MaterialUser@example.com", // Email used for RSS feed's author segment
+  userName: "Example Company", // Username to display in the author segment.
+  userEmail: "mark@x200labs.com", // Email used for RSS feed's author segment
   userTwitter: "", // Optionally renders "Follow Me" in the UserInfo segment.
-  userLocation: "North Pole, Earth", // User location to display in the author segment.
-  userAvatar: "https://api.adorable.io/avatars/150/test.png", // User avatar to display in the author segment.
+  userLocation: "", // User location to display in the author segment.
+  userAvatar: "", // User avatar to display in the author segment.
   userDescription:
-    "Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.", // User description to display in the author segment.
+    "", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {
       label: "GitHub",
-      url: "https://github.com/Vagr9K/gatsby-material-starter",
+      url: "",
       iconClassName: "fa fa-github",
     },
     {
       label: "Twitter",
-      url: "https://twitter.com/Vagr9K",
+      url: "",
       iconClassName: "fa fa-twitter",
     },
     {
       label: "Email",
-      url: "mailto:vagr9k@gmail.com",
+      url: "",
       iconClassName: "fa fa-envelope",
     },
   ],
-  copyright: "Copyright © 2020. Material User", // Copyright string for the footer of the website and RSS feed.
+  copyright: "Example Company", // Copyright string for the footer of the website and RSS feed.
 };
 
 // Validate

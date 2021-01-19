@@ -8,11 +8,11 @@ import "./Navigation.scss";
 class Navigation extends Component {
   render() {
     const { children, config, LocalTitle } = this.props;
-    const footerLinks = LocalTitle !== "About";
+    const footerLinks = LocalTitle;
     return (
       <NavigationDrawer
         drawerTitle={config.siteTitle}
-        toolbarTitle={LocalTitle}
+        toolbarTitle={config.siteTitle}
         contentClassName="main-content"
         navItems={GetNavList(config)}
         mobileDrawerType={NavigationDrawer.DrawerTypes.TEMPORARY}

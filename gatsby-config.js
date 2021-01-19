@@ -38,6 +38,13 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `backgrounds`,
+        path: `${__dirname}/static/slider`, // wherever background images are stored
+      }
+    },
+    {
       resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
@@ -128,14 +135,13 @@ module.exports = {
         ]
       }
     },
-    "gatsby-plugin-offline",
     {
       resolve: "gatsby-plugin-feed",
       options: {
         setup(ref) {
           const ret = ref.query.site.siteMetadata.rssMetadata;
           ret.allMarkdownRemark = ref.query.allMarkdownRemark;
-          ret.generator = "GatsbyJS Material Starter";
+          ret.generator = "Example Company";
           return ret;
         },
         query: `

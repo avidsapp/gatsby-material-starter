@@ -1,14 +1,105 @@
 @import '~react-md/src/scss/react-md';
-$md-primary-color: $md-grey-400;
-$md-secondary-color: $md-red-800;
-$md-tertiary-color: $md-grey-300;
+$md-primary-color: $md-light-blue-500;
+$md-secondary-color: $md-light-blue-900;
+$md-tertiary-color: $md-grey-200;
+$md-grey-color: $md-grey-200;
+$md-darkgrey-color: $md-grey-700;
+$md-white-color: $md-grey-50;
 
 .main-container,
 .darker-background {
-    background-color: $md-tertiary-color;
+  background-color: $md-tertiary-color;
 }
 
 a:link {
-    color: $md-secondary-color;
-    text-decoration: none;
+  color: $md-secondary-color;
+  text-decoration: none;
+}
+
+// MD FIXES
+.wrapper,
+.title-wrapper {
+  width: 100%;
+}
+.md-grid {
+  margin: 4em auto;
+}
+.md-grid:first-of-type {
+  margin-top: 0px;
+}
+img.logo {
+  max-width: 200px;
+}
+.centered {
+  margin: 1em auto;
+  display: block;
+  text-align: center;
+}
+img.full-width {
+  width: 100%;
+}
+.md-divider {
+  margin-bottom: 2em;
+}
+
+// SPECIFIC
+.title-wrapper {
+  margin: 2em auto 2em auto !important;
+}
+
+// SLIDER
+.slider-banner {
+  height: 60vh;
+}
+@media (max-width: 700px) {
+  .slider-banner {
+    max-height: 40vh;
+  }
+}
+.slider-banner .gatsby-image-wrapper {
+  max-height: 75vh;
+}
+@media (max-width: 700px) {
+  .slider-banner .gatsby-image-wrapper {
+    max-height: 55vh;
+  }
+}
+.slider-banner .gatsby-image-wrapper {
+  z-index: 1 !important;
+}
+.slider-banner .caption,
+.slider-banner div:nth-child(even) {
+  z-index: 2 !important;
+  position: absolute;
+  width: 80%;
+  top: 50%;
+  left: 0;
+  margin: 0 10%;
+}
+@media (max-width: 700px) {
+  .slider-banner .caption,
+  .slider-banner div:nth-child(even) {
+    top: 25%;
+    left: 0;
+    margin: 0 10%;
+  }
+}
+.slider-banner .caption h4 {
+  color: $md-white-color;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 2px 2px 0 $md-darkgrey-color, -1px -1px 0 $md-darkgrey-color, 1px -1px 0 $md-darkgrey-color, -1px 1px 0 $md-darkgrey-color, 1px 1px 0 $md-darkgrey-color;
+}
+@media (max-width: 700px) {
+  .slider-banner .caption h4 {
+    font-size: 1.5em;
+  }
+}
+.slider-banner .caption a {
+  position: absolute;
+  border-radius: 1em;
+  margin-top: 1em;
+  color: $md-white-color;
+  font-weight: bold;
+  background-color: $md-primary-color;
 }

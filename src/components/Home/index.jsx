@@ -8,13 +8,19 @@ import Media from "react-md/lib/Media/Media";
 import MediaOverlay from "react-md/lib/Media/MediaOverlay";
 import Divider from "react-md/lib/Dividers/Divider";
 import UserLinks from "../UserLinks";
+import Slider from "../Slider/Slider";
 import config from "../../../data/SiteConfig";
-import "./About.scss";
+import "./Home.scss";
 
-class About extends Component {
+class Home extends Component {
   render() {
     return (
       <div className="md-grid mobile-fix">
+        <Grid className="slider-banner">
+          <Cell size={12}>
+            <Slider />
+          </Cell>
+        </Grid>
         <Grid className="title-wrapper">
           <Cell size={12}>
             <img
@@ -97,4 +103,4 @@ class About extends Component {
   }
 }
 
-export default About;
+export default Home;

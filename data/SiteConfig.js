@@ -1,21 +1,21 @@
 const config = {
   siteTitle: "Example Company", // Site title.
-  siteTitleShort: "x200", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitleShort: "example", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Example Company", // Alternative site title for SEO.
   siteLogo: "/logos/logo-192.png", // Logo used for SEO and manifest.
-  siteUrl: "https://x200labs.com", // Domain of your website without pathPrefix.
+  siteUrl: "https://example.com", // Domain of your website without pathPrefix.
   pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   fixedFooter: false, // Whether the footer component is fixed, i.e. always visible
   siteDescription: "Example Company", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteRssTitle: "Example Company", // Title of the RSS feed
   siteFBAppID: "", // FB Application ID for using app insights
-  siteGATrackingID: "UA-47311644-4", // Tracking code ID for google analytics.
+  siteGATrackingID: "UA-XXXXXXXX-X", // Tracking code ID for google analytics.
   disqusShortname: "", // Disqus shortname.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
   userName: "Example Company", // Username to display in the author segment.
-  userEmail: "mark@x200labs.com", // Email used for RSS feed's author segment
+  userEmail: "example@example.com", // Email used for RSS feed's author segment
   userTwitter: "", // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: "", // User location to display in the author segment.
   userAvatar: "", // User avatar to display in the author segment.

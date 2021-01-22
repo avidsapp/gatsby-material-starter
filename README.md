@@ -7,6 +7,7 @@
 ## Additional Features
 
 - Netlify forms
+- Slider
 
 ## TODO
 
